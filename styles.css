@@ -1,0 +1,82 @@
+/* General Styles */
+body {
+    font-family: 'Fredoka', sans-serif; 
+    text-align: center;
+    background-color: #f5f5f5;
+    color: #222;
+    margin: 0;
+    padding: 0;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200' viewBox='0 0 200 200'%3E%3Ctext x='10' y='40' font-size='40' opacity='0.15'%3E🏔️🏕️📚%3C/text%3E%3C/svg%3E");
+    background-repeat: repeat;
+    background-size: 150px;
+}
+
+/* Header */
+header {
+    font-size: 2.2em;
+    font-weight: 700;
+    padding: 15px;
+}
+
+/* Button Container */
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+/* Button Styling */
+button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 12px 18px;
+    font-size: 1em;
+    border-radius: 12px; 
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out, transform 0.1s ease-in-out;
+    font-weight: 600;
+}
+
+button:hover {
+    background-color: #555;
+    transform: scale(1.05);
+}
+
+/* Info Box (White Sections) */
+.info-box {
+    background-color: white;
+    padding: 15px 20px;
+    margin: 15px auto; /*Reduced the margin at the top to bring things closer */
+    width: 70%;
+    border-radius: 15px;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 600px;
+}
+
+/* Section Titles */
+.info-box h2 {
+    font-size: 1.8em;
+    margin-bottom: 5px; /* Slight reduction for a tighter layout */
+    margin-top: 5px;
+    color: #333;
+}
+
+/* Subheadings */
+.info-box h3 {
+    font-size: 1.4em;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+/* Paragraphs (Consistent Spacing) */
+.info-box p {
+    font-size: 1.1em;
+    line-height: 1.5;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
