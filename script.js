@@ -31,3 +31,4 @@ document.getElementById('like-btn').addEventListener('click', function() {
     // Update the displayed like count
     likeCount.innerText = `${currentLikes} Likes`;
 });
+
